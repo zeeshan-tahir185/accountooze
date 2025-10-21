@@ -1,0 +1,21 @@
+@import "tailwindcss";
+.active_tab_bg{
+  background: linear-gradient(178.58deg, #FFFFFF 1.21%, #F2F2F2 122.57%);
+}
+@font-face {
+  font-family: 'SatoshiRegular';
+  src: url('../../public/fonts/regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'SatoshiBold';
+  src: url('../../public/fonts/bold.woff') format('woff');
+}
+.satoshi_regular{
+   font-family: 'SatoshiRegular', sans-serif;
+}
+.satoshi_bold{
+   font-family: 'SatoshiBold', sans-serif;
+}
+.heading_letter_space{
+  letter-spacing: -0.96px;
+}
