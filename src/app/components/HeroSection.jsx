@@ -3,7 +3,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <div className="max-w-[1440px] mx-auto px-4 md:px-[90px] flex flex-col lg:flex-row justify-between items-center gap-[30px]">
+    <div className="max-w-[1440px] mx-auto px-4 md:px-[90px] flex flex-col lg:flex-row justify-between items-center gap-[30px] py-[20px] md:py-[50px]">
       <div className="flex flex-col gap-2 md:gap-[24px] items-center lg:items-start w-full lg:w-[500px] satoshi_regular text-center lg:text-left">
         <p className="text-[#191923] py-[6px] px-[16px] bg-[#F5F5F5] rounded-[8px]">
           Your AI-Powered Accounting Software
@@ -17,11 +17,11 @@ const HeroSection = () => {
           on growing your business.
         </p>
         <div className="flex flex-col sm:flex-row gap-[16px]">
-          <button className="bg-[#FF4404] font-bold text-white rounded-[12px] w-[150px] h-[43px] flex items-center justify-center gap-[10px] mx-auto">
+          <button className="cursor-pointer bg-[#FF4404] font-bold text-white rounded-[12px] w-[150px] h-[43px] flex items-center justify-center gap-[10px] mx-auto">
             Get Started
             <span className="w-[6px] h-[6px] bg-white rounded-full"></span>
           </button>
-          <button className="bg-transparent border border-[#262626] font-bold text-[#191923] rounded-[12px] w-[158px] h-[43px] flex items-center justify-center gap-[10px] mx-auto">
+          <button className="cursor-pointer bg-transparent border border-[#262626] font-bold text-[#191923] rounded-[12px] w-[158px] h-[43px] flex items-center justify-center gap-[10px] mx-auto">
             Book a Demo
             <span className="w-[6px] h-[6px] bg-[#FF5D00E0] rounded-full"></span>
           </button>
