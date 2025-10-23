@@ -87,7 +87,7 @@ export default function Footer() {
 
         {/* Footer Bottom */}
         <div className="mt-10 text-xs text-gray-500 pt-4">
-          <p className="text-[#444444] font-medium underline">
+          <p className="text-[#444444] font-medium underline text-center md:text-left">
             Copyright 2025 omahresik all rights reserved
           </p>
         </div>
